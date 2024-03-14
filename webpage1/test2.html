@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Webpage</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe8cc;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .paragraph {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+  }
+
+  .paragraph-box {
+    background-color: #da644f;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(19, 17, 17);
+    
+  }
+
+  .paragraph-box p {
+    font-size: 20px; 
+    font-weight: bold; 
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .paragraph, .image {
+      flex: auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="image">
+    <img src="C:\Users\manoh\Downloads\pexels-rachel-claire-6752433.jpg" alt="Image">
+    <img src="C:\Users\manoh\Downloads\pexels-robin-stickel-70497.jpg" alt="Image">
+  </div>
+  <div class="paragraph">
+    <div class="paragraph-box">
+      <h4><Label>LOREM IPSUM</Label></h4>
+      <p style="font-size: 30px;"> L O R E M I P S U M</p>
+      <p style="font-size: 30px;"> S E T A D E M I R.</p>
+      <h3>Click <span class="arrow" onclick="alert('Clicked!')">➡️</span> 
+      </div></h3>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

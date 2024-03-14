@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Webpage</title>
+<style>
+  /* CSS Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe8cc;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #da644f;
+    color: #d09b30;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-right: 15px;
+  }
+
+  nav ul li a {
+    color: #131212;
+    text-decoration: none;
+    font-weight: 10;
+  }
+
+  nav ul li a:hover {
+    background-color: #666;
+  }
+
+  .menu-symbol {
+    color: black;
+    font-size: 24px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+  }
+
+  .menu-symbol:hover {
+    transform: scale(1.2);
+  }
+
+  section {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    font-size: large;
+    height: auto; /* Adjust height automatically */
+  }
+
+  .paragraph {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .image {
+    max-width: 50%;
+    height: 70%;
+  }
+
+  button {
+    background-color: #da644f;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin to push button below the paragraph */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe8cc;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .paragraph {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+  }
+
+  .paragraph-box {
+    background-color: #da644f;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(19, 17, 17);
+    
+  }
+
+  .paragraph-box p {
+    font-size: 20px; 
+    font-weight: bold; 
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .paragraph, .image {
+      flex: auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Order</a></li>
+    <li><a href="#">Food</a></li>
+    <li><a href="#">Restaurant</a></li>
+    <li><a href="#">Testimonials</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+  <span class="menu-symbol">&#9776;</span>
+</nav>
+
+<section>
+  <div class="paragraph">
+    <h2><Label>LOREM IPSUM</Label></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rerum corrupti unde consequatur culpa autem eaque quis ducimus sed facere vel adipisci odio delectus, in ipsum repellat architecto laborum voluptatem.</p>
+    <section>
+        <button >Click me</button>
+
+      </section>
+</div>
+  <img class="image" src="C:\Users\manoh\OneDrive\Desktop\Webpage\pexels-robin-stickel-70497.jpg" alt="Example image">
+</section>
+<hr>
+<div class="container">
+    <div class="image">
+      <img src="C:\Users\manoh\Downloads\pexels-rachel-claire-6752433.jpg" alt="Image">
+      <img src="C:\Users\manoh\Downloads\pexels-robin-stickel-70497.jpg" alt="Image">
+    </div>
+    <div class="paragraph">
+      <div class="paragraph-box">
+        <h4><Label>LOREM IPSUM</Label></h4>
+        <p style="font-size: 30px;"> L O R E M I P S U M</p>
+        <p style="font-size: 30px;"> S E T A D E M I R.</p>
+        <h3>Click <span class="arrow" onclick="alert('Clicked!')">➡️</span> 
+        </div></h3>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+
